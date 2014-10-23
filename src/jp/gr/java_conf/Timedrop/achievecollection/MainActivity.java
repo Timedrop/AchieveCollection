@@ -1,6 +1,8 @@
 package jp.gr.java_conf.Timedrop.achievecollection;
 
 import android.os.Bundle;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.app.Activity;
@@ -18,6 +20,10 @@ public class MainActivity extends Activity {
 		
 		Spinner spinner = (Spinner) findViewById(R.id.spinner);
 		spinner.setAdapter(adapter);
+		
+		spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener(){
+			@Override
+		};
 	}
 
 }
