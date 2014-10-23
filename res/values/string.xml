@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AchieVeCollection</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="country_array">
+        <item >Choose Country</item>
+        <item >Venezia</item>
+        <item >Firenze</item>
+        <item >Rome</item>
+    </string-array>
+    <string name="copy">新婚旅行 in イタリア\n ～ヴェネツィア・フィレンツェ・ローマ～\n\n2014/11/12(Wed)～11/19(Wed)</string>
+
+</resources>
