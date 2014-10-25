@@ -1,10 +1,19 @@
 package jp.gr.java_conf.Timedrop.achievecollection;
 
+import android.location.Location;
+import android.location.Criteria;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.app.Activity;
+import android.view.View;
+import android.os.Bundle;
+import android.widget.TextView;
+
 public class GPSActivity extends Activity {
 	private LocationManager mLocationManager;
 	private TextView mTextView;
 	
-	private LocationListener mListner = new LoLocationListner {
+	private LocationListener mListener = new LocationListener() {
 		@Override
 		public void onStatusChanged(String pprovider, int status, Bundle extras) {
 			//プロバイダの状態が変化したら呼び出される。
@@ -30,7 +39,7 @@ public class GPSActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
-		setContextView(R.layout.activity_gps);
+		setContentView(R.layout.activity_gps);
 		
 		// TextViewを取得
 		mTextView = (TextView) findViewById(R.id.text_view);
