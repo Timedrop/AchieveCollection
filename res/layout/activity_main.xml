@@ -28,7 +28,16 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/spinner"
         android:layout_below="@+id/spinner"
+        android:layout_marginTop="64dp"
         android:scaleType="fitStart"
         android:src="@drawable/flag_of_italy" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/spinner"
+        android:layout_below="@+id/spinner"
+        android:onClick="GpsActivity"
+        android:text="@string/gps" />
 
 </RelativeLayout>
