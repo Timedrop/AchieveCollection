@@ -20,7 +20,7 @@
         android:layout_alignLeft="@+id/text_view_gps"
         android:layout_below="@+id/text_view_gps"
         android:layout_marginTop="15dp"
-        android:onClick="MainActivity"
+        android:onClick="switchMainActivity"
         android:text="@string/back" />
 
 </RelativeLayout>

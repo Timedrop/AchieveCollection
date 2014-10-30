@@ -36,6 +36,13 @@ public class MainActivity extends Activity {
 			}
 		});
 	}
+	
+	public void switchGpsActivity(View v) {
+		// make intent and start GpsActivity
+		Intent varIntent = new Intent(this, GpsActivity.class);
+		startActivity(varIntent);
+	}
+	
 	private void showToast(String text){
 		Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
 	}

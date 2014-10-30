@@ -1,11 +1,13 @@
 package jp.gr.java_conf.Timedrop.achievecollection;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class GpsActivity extends Activity {
@@ -64,5 +66,11 @@ public class GpsActivity extends Activity {
 		super.onPause();
 		// cancel Listener.
 		mLocationManager.removeUpdates(mListener);
+	}
+	
+	public void switchMainActivity(View v) {
+		// make intent and start MainActivity
+		Intent varIntent = new Intent(this, MainActivity.class);
+		startActivity(varIntent);
 	}
 }
