@@ -8,7 +8,9 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.TextView;
+import android.widget.Button;
 
 public class GpsActivity extends Activity {
 	private LocationManager mLocationManager;
@@ -43,6 +45,15 @@ public class GpsActivity extends Activity {
 		
 		// get TextView
 		mTextView = (TextView) findViewById(R.id.text_view_gps);
+		Button break_gps=(Button)findViewById(R.id.break_gps);
+		break_gps.setOnClickListener(new View.OnClickListener() {
+
+				@Override
+				public void onClick(View v) {
+					// TODO Auto-generated method stub
+					finish();
+				}
+			});
 	}
 	
 	@Override
@@ -66,11 +77,5 @@ public class GpsActivity extends Activity {
 		super.onPause();
 		// cancel Listener.
 		mLocationManager.removeUpdates(mListener);
-	}
-	
-	public void switchMainActivity(View v) {
-		// make intent and start MainActivity
-		Intent varIntent = new Intent(this, MainActivity.class);
-		startActivity(varIntent);
 	}
 }
