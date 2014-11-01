@@ -48,12 +48,12 @@ public class GpsActivity extends Activity {
 		Button break_gps=(Button)findViewById(R.id.break_gps);
 		break_gps.setOnClickListener(new View.OnClickListener() {
 
-				@Override
-				public void onClick(View v) {
-					// TODO Auto-generated method stub
-					finish();
-				}
-			});
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				finish();
+			}
+		});
 	}
 	
 	@Override

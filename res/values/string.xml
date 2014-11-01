@@ -12,6 +12,9 @@
     <string name="copy">新婚旅行 in イタリア\n ～ヴェネツィア・フィレンツェ・ローマ～\n\n2014/11/12(Wed)～11/19(Wed)</string>
     <string name="text_view_gps">text_view_gps</string>
     <string name="gps">gps</string>
+    <string name="venezia">Venezia</string>
+    <string name="firenze">Firenze</string>
+    <string name="rome">Rome</string>
     <string name="back">戻る</string>
 
 </resources>

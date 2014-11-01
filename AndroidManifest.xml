@@ -23,10 +23,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
         <activity
 			android:name=".GpsActivity"
 			android:label="@string/gps"
-            android:description="@string/gps" />
+            android:description="@string/gps" >
+        </activity>
+        
+        <activity
+            android:name=".VeneziaActivity"
+            android:label="@string/venezia"
+            android:description="@string/venezia" >
+        </activity>
+        <activity
+            android:name=".FirenzeActivity"
+            android:label="@string/firenze"
+            android:description="@string/firenze" >
+        </activity>
+        <activity
+            android:name=".RomeActivity"
+            android:label="@string/rome"
+            android:description="@string/rome" >
+        </activity>
     </application>
 
 </manifest>
