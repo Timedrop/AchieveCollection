@@ -104,4 +104,10 @@ public class SqlActivity extends Activity {
 		
 		db.delete(TABLE_NAME, "point = " + point, null);
 	}
+	
+	@Override
+	public void onDestroy() {
+		super.onDestroy();
+		db.close();
+	}
 }
