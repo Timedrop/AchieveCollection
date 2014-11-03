@@ -19,29 +19,36 @@ public class MainActivity extends Activity {
 	}
 	
 	public void switchVeneziaActivity(View v) {
-		// make intent and start GpsActivity
+		// make intent and start VeneziaActivity
 		Intent varIntent = new Intent(this, VeneziaActivity.class);
 		startActivity(varIntent);
 	}
 	
 	public void switchRomeActivity(View v) {
-		// make intent and start GpsActivity
+		// make intent and start RomeActivity
 		Intent varIntent = new Intent(this, RomeActivity.class);
 		startActivity(varIntent);
 	}
 	
 	public void switchFirenzeActivity(View v) {
-		// make intent and start GpsActivity
+		// make intent and start FirenzeActivity
 		Intent varIntent = new Intent(this, FirenzeActivity.class);
 		startActivity(varIntent);
 	}
 	
+	public void switchSqlActivity(View v) {
+		// make intent and start SqlActivity
+		Intent varIntent = new Intent(this, SqlActivity.class);
+		startActivity(varIntent);
+	}
+	
+	/*
 	public void switchGpsActivity(View v) {
 		// make intent and start GpsActivity
 		Intent varIntent = new Intent(this, GpsActivity.class);
 		startActivity(varIntent);
 	}
-
+	*/
 
 	
 

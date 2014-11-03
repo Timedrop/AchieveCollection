@@ -7,8 +7,9 @@
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="21" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -23,27 +24,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
         <activity
-			android:name=".GpsActivity"
-			android:label="@string/gps"
-            android:description="@string/gps" >
+            android:name=".GpsActivity"
+            android:description="@string/gps"
+            android:label="@string/gps" >
         </activity>
-        
         <activity
             android:name=".VeneziaActivity"
-            android:label="@string/venezia"
-            android:description="@string/venezia" >
+            android:description="@string/venezia"
+            android:label="@string/venezia" >
         </activity>
         <activity
             android:name=".FirenzeActivity"
-            android:label="@string/firenze"
-            android:description="@string/firenze" >
+            android:description="@string/firenze"
+            android:label="@string/firenze" >
         </activity>
         <activity
             android:name=".RomeActivity"
-            android:label="@string/rome"
-            android:description="@string/rome" >
+            android:description="@string/rome"
+            android:label="@string/rome" >
+        </activity>
+        <activity
+            android:name=".SqlActivity"
+            android:description="@string/sql"
+            android:label="@string/sql" >
         </activity>
     </application>
 

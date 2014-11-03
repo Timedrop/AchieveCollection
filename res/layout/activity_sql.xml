@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jp.gr.java_conf.Timedrop.achievecollection.SqlActivity" >
+	
+    <TextView
+        android:id="@+id/column"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/column" />
+    
+	<TextView
+	    android:id="@+id/country_text"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/column"
+        android:text="@string/country" />
+    <EditText
+        android:id="@+id/country"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/column"
+        android:layout_toRightOf="@+id/country_text" />
+    
+    <TextView
+	    android:id="@+id/point_text"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country"
+        android:text="@string/point" />
+	<EditText
+        android:id="@+id/point"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/country"
+        android:layout_toRightOf="@+id/point_text" />
+	
+	<TextView
+	    android:id="@+id/latitude_text"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/point"
+        android:text="@string/latitude" />
+    <EditText
+        android:id="@+id/latitude"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/point"
+        android:layout_toRightOf="@+id/latitude_text" />
+    
+    <TextView
+	    android:id="@+id/longitude_text"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/latitude"
+        android:text="@string/longitude" />
+    <EditText
+        android:id="@+id/longitude"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/latitude"
+        android:layout_toRightOf="@+id/longitude_text" />
+    
+    <TextView
+	    android:id="@+id/achieve_text"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/longitude"
+        android:text="@string/achieve" />
+    <EditText
+        android:id="@+id/achieve"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/longitude"
+        android:layout_toRightOf="@+id/achieve_text" />
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/achieve"
+        android:layout_marginTop="17dp"
+        android:onClick="insert"
+        android:text="@string/insert" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/insert"
+        android:layout_alignBottom="@+id/insert"
+        android:layout_toRightOf="@+id/insert"
+        android:text="@string/update" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/update"
+        android:layout_alignBottom="@+id/update"
+        android:layout_toRightOf="@+id/update"
+        android:text="@string/delete" />
+
+</RelativeLayout>

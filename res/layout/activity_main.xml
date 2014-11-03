@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:scaleType="fitStart"
-        android:layout_below="@+id/gps"
+        android:layout_below="@+id/sql"
         android:src="@drawable/flag_of_italy" />
     
 	<Button
@@ -48,11 +48,11 @@
         android:text="@string/rome" />
     
     <Button
-        android:id="@+id/gps"
+        android:id="@+id/sql"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="switchGpsActivity"
+        android:onClick="switchSqlActivity"
         android:layout_below="@+id/firenze"
-        android:text="@string/gps" />
+        android:text="@string/sql" />
 
 </RelativeLayout>
