@@ -2,7 +2,6 @@
 <resources>
 
     <string name="app_name">AchieVeCollection</string>
-    <string name="action_settings">Settings</string>
     <string-array name="country_array">
         <item >Choose Country</item>
         <item >Venezia</item>
@@ -10,8 +9,10 @@
         <item >Rome</item>
     </string-array>
     <string name="copy">新婚旅行 in Italy\n    ～Venezia・Firenze・Rome～\n\n2014/11/12(Wed)～11/19(Wed)</string>
-    <string name="text_view_gps">text_view_gps</string>
     <string name="gps">gps</string>
+    <string name="euro_exchange">euro_exchange</string>
+    <string name="yen_to_euro">￥→€</string>
+    <string name="euro_to_yen">€→￥</string>
     <string name="venezia">Venezia</string>
     <string name="firenze">Firenze</string>
     <string name="rome">Rome</string>
@@ -26,5 +27,7 @@
     <string name="insert">Insert</string>
     <string name="update">Update</string>
     <string name="delete">Delete</string>
+    <string name="yen">￥</string>
+    <string name="euro">€</string>
 
 </resources>

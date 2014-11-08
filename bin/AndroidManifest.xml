@@ -49,6 +49,10 @@
             android:description="@string/sql"
             android:label="@string/sql" >
         </activity>
+        <activity
+            android:name=".EuroExchangeActivity"
+            android:label="@string/euro_exchange" >
+        </activity>
     </application>
 
 </manifest>
