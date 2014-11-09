@@ -23,7 +23,7 @@ public class EuroExchangeActivity extends Activity {
 		
 	}
 	
-	
+	/*
 	public void ytoe(int yen, int euro) {
 		euro = yen * euro_std;
 		EditText euroEditText = (EditText)findViewById(R.id.euro);
@@ -33,4 +33,5 @@ public class EuroExchangeActivity extends Activity {
 	public void etoy(int yen, int euro) {
 		yen = euro / euro_std;
 	}
+	*/
 }
